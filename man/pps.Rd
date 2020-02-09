@@ -23,7 +23,11 @@ pps(df, stratid, nsamp, prn, size)
 }
 
 \examples{
-pps(df=ExampleData, nsamp="nsamp", stratid="stratum", prn="prn", size="size")
+dfOut <- pps(df=ExampleData, 
+             nsamp="nsample", 
+             stratid="stratum", 
+             prn="rands", 
+             size="sizeM")
 }
 
 \seealso{

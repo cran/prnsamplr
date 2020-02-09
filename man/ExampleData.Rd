@@ -13,10 +13,10 @@ Artificial dataset to be used with \code{samp}.
   \describe{
     \item{\code{stratum}}{a character vector}
     \item{\code{id}}{a numeric vector}
-    \item{\code{npop}}{a numeric vector}
-    \item{\code{nsamp}}{a numeric vector}
-    \item{\code{prn}}{a numeric vector}
-    \item{\code{size}}{a numeric vector}
+    \item{\code{npopul}}{a numeric vector}
+    \item{\code{nsample}}{a numeric vector}
+    \item{\code{rands}}{a numeric vector}
+    \item{\code{sizeM}}{a numeric vector}
   }
 }
 \examples{

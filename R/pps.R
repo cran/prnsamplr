@@ -1,3 +1,5 @@
+#' @export
+#' @importFrom stats setNames aggregate
 pps <- function(df, stratid, nsamp, prn, size) {
   sumdf <- setNames(aggregate(df[size], df[stratid], sum), c(stratid, "sumsize"))
   df <- merge(df, sumdf, by = stratid)
@@ -18,9 +20,7 @@ pps <- function(df, stratid, nsamp, prn, size) {
     ltone["nnew"] <- NULL
     dfout <- rbind(gtone, ltone)
     return(dfout)
-  }
-
-  else {
+  } else {
     df["Q"] <- df[prn] * (1 - df["lambda"]) / (df["lambda"] * (1 - df[prn]))
     df <- df[with(df, order(df[stratid], df["Q"])), ]
     df$sampled <- sequence(rle(as.character(df[, stratid]))$lengths) <= df[nsamp]

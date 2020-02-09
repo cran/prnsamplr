@@ -21,8 +21,18 @@ samp(method, df, ...)
 }
 
 \examples{
-samp(method=pps, df=ExampleData, nsamp="nsamp", stratid="stratum", prn="prn", size="size")
-samp(method=srs, df=ExampleData, nsamp="nsamp", stratid="stratum", prn="prn")
+dfOut <- samp(method=pps, 
+              df=ExampleData, 
+              nsamp="nsample", 
+              stratid="stratum", 
+              prn="rands", 
+              size="sizeM")
+
+dfOut <- samp(method=srs, 
+              df=ExampleData, 
+              nsamp="nsample", 
+              stratid="stratum", 
+              prn="rands")
 }
 
 \seealso{

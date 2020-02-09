@@ -22,7 +22,10 @@ srs(df, stratid, nsamp, prn)
 }
 
 \examples{
-srs(df=ExampleData, nsamp="nsamp", stratid="stratum", prn="prn")
+dfOut <- srs(df=ExampleData, 
+             nsamp="nsample", 
+             stratid="stratum", 
+             prn="rands")
 }
 
 \seealso{

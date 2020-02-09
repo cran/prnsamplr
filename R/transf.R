@@ -1,3 +1,4 @@
+#' @export
 transformprn <- function(df, prn, direction, start) {
   df["prn.old"] <- df[prn]
   if (toupper(substr(direction, 1, 1)) %in% c("U", "R")) {

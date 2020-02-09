@@ -1,8 +1,8 @@
 Package: prnsamplr
 Type: Package
 Title: Permanent Random Number Sampling
-Version: 0.1.0
-Date: 2019-02-21
+Version: 0.1.1
+Date: 2020-02-09
 Author: Kira Coder Gylling
 Maintainer: Kira Coder Gylling <kira.gylling@gmail.com>
 Description: Survey sampling using permanent random numbers (PRN's). A solution to the
@@ -17,11 +17,11 @@ Description: Survey sampling using permanent random numbers (PRN's). A solution 
     function for transforming the PRN's in order to control the sample overlap.
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 Imports: stats
 LazyData: true
 NeedsCompilation: no
-Packaged: 2019-02-22 11:43:07 UTC; kirag
+Packaged: 2020-02-09 16:01:25 UTC; kirag
 Depends: R (>= 2.10)
 Repository: CRAN
-Date/Publication: 2019-03-02 17:50:03 UTC
+Date/Publication: 2020-02-09 17:00:02 UTC

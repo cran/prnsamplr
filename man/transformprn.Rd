@@ -22,7 +22,7 @@ transformprn(df, prn, direction, start)
 }
 
 \examples{
-transformprn(df=ExampleData, prn="prn", direction="U", start=0.2)
+dfOut <- transformprn(df=ExampleData, prn="rands", direction="U", start=0.2)
 }
 
 \seealso{
