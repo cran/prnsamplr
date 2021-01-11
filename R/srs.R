@@ -1,6 +1,7 @@
 #' @export
 srs <- function(df, stratid, nsamp, prn) {
-  df <- df[with(df, order(get(stratid), get(prn))), ]
+  orderdf <- unname(df[,c(stratid, prn)])
+  df <- df[do.call(order, orderdf), ]
   df$sampled <- sequence(rle(as.character(df[, stratid]))$lengths) <= df[, nsamp]
   return(df)
 }

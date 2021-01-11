@@ -22,7 +22,8 @@ pps <- function(df, stratid, nsamp, prn, size) {
     return(dfout)
   } else {
     df["Q"] <- df[prn] * (1 - df["lambda"]) / (df["lambda"] * (1 - df[prn]))
-    df <- df[with(df, order(df[stratid], df["Q"])), ]
+    orderdf <- unname(df[,c(stratid, "Q")])
+    df <- df[do.call(order, orderdf),]
     df$sampled <- sequence(rle(as.character(df[, stratid]))$lengths) <= df[nsamp]
     df["sumsize"] <- NULL
     return(df)
