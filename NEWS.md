@@ -1,3 +1,11 @@
+prnsamplr v0.2.1 (Release date: 2022-09-29)
+==============
+
+Changes:
+
+* Changes to pps that makes the output more consistent.
+* Correction of an error in the documentation.
+
 prnsamplr v0.2.0 (Release date: 2021-01-11)
 ==============
 

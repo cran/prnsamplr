@@ -18,7 +18,7 @@ transformprn(df, prn, direction, start)
 }
 
 \value{
-  Copy of the input data frame together with the numeric variable \code{prn.old} containing the non-transformed permanent random numbers, as well as the numeric variable \code{prn} containing the transformed permanent random numbers.
+  Copy of the input data frame with the permanent random numbers transform according to specification, along with the numeric variable \code{prn.old} containing the non-transformed permanent random numbers.
 }
 
 \examples{
