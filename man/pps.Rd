@@ -19,7 +19,7 @@ pps(df, stratid, nsamp, prn, size)
 }
 
 \value{
-  Copy of the input data frame together with the boolean variable \code{sampled}, as well as a numeric variable \code{lambda} containing the estimated first-order inclusion probabilities. 
+  Copy of the input data frame together with the boolean variable \code{sampled}, as well as a numeric variable \code{lambda} containing the estimated first-order inclusion probabilities and the numeric variable \deqn{Q = \frac{prn(1 - lambda)}{lambda(1 - prn)}} that determines which elements are sampled.
 }
 
 \examples{
@@ -31,7 +31,9 @@ dfOut <- pps(df=ExampleData,
 }
 
 \seealso{
+  \code{\link{prnsamplr}},
   \code{\link{samp}},
   \code{\link{srs}},
-  \code{\link{transformprn}}.
+  \code{\link{transformprn}},
+  \code{\link{ExampleData}}.
 }

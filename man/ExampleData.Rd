@@ -5,7 +5,7 @@
 ExampleData
 }
 \description{
-Artificial dataset to be used with \code{samp}.
+Artificial dataset to be used with \code{samp} and \code{transformprn}.
 }
 \usage{data("ExampleData")}
 \format{

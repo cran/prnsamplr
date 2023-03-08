@@ -26,9 +26,11 @@ dfOut <- transformprn(df=ExampleData, prn="rands", direction="U", start=0.2)
 }
 
 \seealso{
+  \code{\link{prnsamplr}},
   \code{\link{samp}},
   \code{\link{srs}},
-  \code{\link{pps}}.
+  \code{\link{pps}},
+  \code{\link{ExampleData}}.
 }
 
-\references{Lindblom, A. and Teterukovsky, A. (2007) \emph{Coordination of Stratified Pareto pps Samples and Stratified Simple Random Samples at Statistics Sweden}.}
+\references{Lindblom, A. and Teterukovsky, A. (2007). "Coordination of Stratified Pareto pps Samples and Stratified Simple Random Samples at Statistics Sweden." In \emph{Papers presented at the ICES-III, June 18-21, 2007, Montreal, Quebec, Canada.}}

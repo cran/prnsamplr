@@ -1,8 +1,8 @@
 Package: prnsamplr
 Type: Package
 Title: Permanent Random Number Sampling
-Version: 0.2.1
-Date: 2022-09-29
+Version: 0.3.0
+Date: 2023-03-08
 Author: Kira Coder Gylling
 Maintainer: Kira Coder Gylling <kira.gylling@gmail.com>
 Description: Survey sampling using permanent random numbers (PRN's). A solution to the
@@ -22,6 +22,6 @@ Depends: R (>= 2.10)
 Imports: stats
 LazyData: true
 NeedsCompilation: no
-Packaged: 2022-09-29 09:10:08 UTC; kira
+Packaged: 2023-03-08 08:57:20 UTC; kira
 Repository: CRAN
-Date/Publication: 2022-09-29 10:10:02 UTC
+Date/Publication: 2023-03-08 11:00:02 UTC

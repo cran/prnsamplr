@@ -29,7 +29,9 @@ dfOut <- srs(df=ExampleData,
 }
 
 \seealso{
+  \code{\link{prnsamplr}},
   \code{\link{samp}},
   \code{\link{pps}},
-  \code{\link{transformprn}}.
+  \code{\link{transformprn}},
+  \code{\link{ExampleData}}.
 }
